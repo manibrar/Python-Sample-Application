@@ -1,7 +1,7 @@
 import unittest
 
 from betamax import Betamax
-from app import app
+from Python-Sample-Application import app
 
 with Betamax.configure() as config:
     config.cassette_library_dir = 'test/fixtures'
